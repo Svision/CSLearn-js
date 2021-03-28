@@ -1,0 +1,67 @@
+#LLTitle{
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+#LLTitle:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.node{
+    height: 25px; 
+    width: 25px; 
+    background: #fff; 
+    border: 1px solid #000;
+    color: #000;
+    text-align: center;
+    font: 20px Arial, sans-serif; 
+    display: inline-block;
+}
+
+.emptyNode{
+    height: 25px; 
+    width: 25px;
+    background: #fff; 
+    border: 1px solid #000;
+    color: #000;
+    text-align: center;
+    font: 20px Arial, sans-serif; 
+    display: inline-block;
+    position: relative;
+    top: 8px;
+}
+
+.arrow-right:after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 8px solid black;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    vertical-align: middle;
+    position: relative;
+    left: -10px;
+  }
+  
+  .arrow-right:before {
+    width: 30px;
+    height: 3px;
+    background: black;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    left: -10px;
+  }

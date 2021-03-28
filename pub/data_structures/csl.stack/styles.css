@@ -1,0 +1,34 @@
+#stackTitle {
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+#stackTitle:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.stack {
+    list-style-type: none;
+}
+
+.stackNode{
+    height: 25px; 
+    width: 25px; 
+    background: red; 
+    border: 1px solid #000;
+    color: #000;
+    text-align: center;
+    font: 20px Arial, sans-serif; 
+    margin-right: 15px;
+}
